@@ -23,6 +23,12 @@ $('button').click(function(){
 
 
 //RANDOM INSPIRATIONAL QUOTES CONTAINER
+
+// maybe this one too : https://api.adviceslip.com/
+// another one: https://favqs.com/api
+//https://forismatic.com/en/api/
+// https://quotesondesign.com/api/
+
 //http://paperquotes.com/
 // $.ajax({ 
 //     type : "GET", 
