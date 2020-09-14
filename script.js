@@ -20,6 +20,11 @@ $('button').click(function(){
 
 //MUSIC CONTAINER 
 
+// https://binaryjazz.us/genrenator-api/
+// https://developer.kkbox.com/
+// https://www.mixcloud.com/developers/
+// https://www.theaudiodb.com/api_guide.php
+
 
 
 //RANDOM INSPIRATIONAL QUOTES CONTAINER
