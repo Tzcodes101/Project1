@@ -7,14 +7,18 @@ $('#get-image').click(function(){
     var apiKey = '18310078-72a2f7e072a362d9cdc81c6c9';
     var queryUrl = 'https://pixabay.com/api/?key=' + apiKey + '&q=' + userInput + '&image_type=photo';
 
+
+
     $.ajax({
         url: queryUrl,
         type: 'GET',
     }).then(function(data){
+        $('#image').empty();
         var imgLink = data.hits[4].largeImageURL;
         var imgTag =  $('<img>').attr('src', imgLink).addClass('img-style');
-        $('#image').append(imgTag);
+        var imgDisplay = $('#image').append(imgTag);
     })
+
 })
 
 
