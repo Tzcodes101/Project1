@@ -15,7 +15,7 @@ $('#get-image').click(function(){
     }).then(function(data){
         $('#image').empty();
         var imgLink = data.hits[4].largeImageURL;
-        var imgTag =  $('<img>').attr('src', imgLink).addClass('img-style');
+        var imgTag =  $('<img>').attr('src', imgLink).addClass('img-fluid');
         var imgDisplay = $('#image').append(imgTag);
     })
 
