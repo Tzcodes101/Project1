@@ -11,9 +11,9 @@ $('#get-image').click(function(){
         url: queryUrl,
         type: 'GET',
     }).then(function(data){
-        var imgTag =  $('<img>').attr('src', data.hits[4].largeImageURL);
+        var imgLink = data.hits[4].largeImageURL;
+        var imgTag =  $('<img>').attr('src', imgLink).addClass('img-style');
         $('#image').append(imgTag);
-        console.log(data.hits[4].largeImageURL)
     })
 })
 
