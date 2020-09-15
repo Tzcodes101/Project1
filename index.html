@@ -6,31 +6,58 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <!-- <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+  <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
     <title>Project 1</title>
+    
 </head>
 <body>
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Welcome Friend,</h1>
+      <p class="lead">This webpage is a simple way to record your thoughts, jot down your ideas, or make a journal entry. 
+        You will find a pre-set playlist and be able to click "Play" and listen to it as you work. If you need a bit of inspiration- click the 
+        "Inspire Me" button for a randomly generated inspirational quote or image. <br>
+        Enjoy your time here, and thanks for taking care of yourself! </p>
+    </div>
+  </div>
+
     <div class="row row-1">
+      <!-- this is where the playlist will be -->
         <div class="col-sm-2 col">
-            <button type="button" class="btn btn-info">Play</button> 
+            <button type="button" class="btn btn-info">Play Music</button> 
             <input type="text" placeholder="Chose your playlist...">
           </div>
+
+          <!-- this is just a title -->
           <div class="col-sm-5 col">
-            <h1 id="title">Page Title</h1>
+            <h1 id="title">For Your Well-Being...</h1>
           </div>
+
+          <!-- this is the div for the inspirational quote -->
           <div class="col-sm-5 col">
-            <button id="quote-button" type="button" class="btn btn-info">Get Quote</button>
+            <button id="quote-button" type="button" class="btn btn-info">Get Inspired...</button>
             <h5 id="random-quote"></h5>
           </div>
+
+          <!-- this is where the Journal text box will be -->
           </div>
           <div class="row row-2">
           <div class="col-sm-6 col">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="" id="" cols="" rows= ""></textarea>
           </div>
+          
           <div class="col-sm-6 col">
-            <button id="get-image" type="button" class="btn btn-success">Get Image</button>
+            <button id="get-image" type="button" class="btn btn-success">Generate Random Chill Image</button>
             <div id="image"></div>
           </div>
+          
     </div>
     <script src="script.js"></script>
 </body>
