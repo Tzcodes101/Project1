@@ -33,27 +33,19 @@ $('#get-image').click(function(){
 
 
 //RANDOM INSPIRATIONAL QUOTES CONTAINER
+$.ajax({
+    url: "https://cors-anywhere.herokuapp.com/http://api.forismatic.com/api/1.0/?",
+    data: {
+        method: 'getQuote',
+        lang: "en",
+        format: "json"
+    },
+    success: function(response) {
+        console.log(response.quoteAuthor);
 
-// maybe this one too : https://api.adviceslip.com/
-// another one: https://favqs.com/api
-//https://forismatic.com/en/api/
-// https://quotesondesign.com/api/
+    }
 
-//http://paperquotes.com/
-// $.ajax({ 
-//     type : "GET", 
-//     url : "https://api.paperquotes.com/apiv1/quotes/", 
-//     beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Token {token}');},
-//     success : function(result) { 
-//         $( "#quote-button" ).click(function() {
-//             $('random-quote').text(result);
-//           });
-        
-//     }, 
-//     error : function(result) { 
-//       //handle the error
-//     } 
-//   }); 
+});
 
 
 })
