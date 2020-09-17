@@ -22,6 +22,15 @@ $('#get-image').click(function(){
 })
 
 
+// Local Storage
+
+var userText = document.querySelector('#journal-text');
+
+$('#save-entry').on('click', function(){
+    localStorage.setItem('journal-text', userText.value)
+})
+    
+
 
 //MUSIC CONTAINER 
 
