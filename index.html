@@ -12,9 +12,6 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css"
     integrity="sha384-H4X+4tKc7b8s4GoMrylmy2ssQYpDHoqzPa9aKXbDwPoPUA3Ra8PA5dGzijN+ePnH" crossorigin="anonymous">
-
-  <!-- <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
   <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
   <title>Project 1</title>
@@ -36,9 +33,7 @@
       <li class="nav-item">
         <a class="nav-link" href="https://www.youtube.com/watch?v=5qap5aO4i9A">Music</a>
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li> -->
+
       <li class="nav-item">
         <a class="nav-link" href="#">About</a>
       </li>
@@ -51,7 +46,7 @@
 </nav>
 
 <body>
-  
+
   <div class="jumbotron">
     <h1 class="display-3">Welcome Friends,</h1>
     <p class="lead">This webpage is a simple way to record your thoughts, jot down your ideas, or make a journal entry.
@@ -63,41 +58,35 @@
     <p> Enjoy your time here, and thank you for taking care of yourself!</p>
 
   </div>
-  
-  <div class="row row-1">
-    <!-- this is where the playlist will be -->
-    <div class="col-sm-2 col">
-      <button type="button" class="btn btn-primary">Play Music</button>
-    
-    </div>
-    <!-- <div class="col-sm-2 col">
-          <button type="button" class="btn btn-info">Play Music</button> 
-          <input type="text" placeholder="Chose your playlist...">
-        </div> -->
 
-    <!-- this is just a title -->
-    
-    <div class="col-sm-5 col">
-      <h1 id="title">"Always be yourself and have faith in yourself. Do not go out and look for a successful personality and try to duplicate it." --Bruce Lee</h1>
-    </div>
+  <!-- this is just a title -->
+  <div class="col-sm-5 col">
+    <h1 id="title">"Always be yourself and have faith in yourself. Do not go out and look for a successful personality
+      and try to duplicate it." --Bruce Lee</h1>
+  </div>
 
-    <!-- this is the div for the inspirational quote -->
-    <div class="col-sm-5 col">
-      <button id="quote-button" type="button" class="btn btn-info">Get Inspired...</button>
-      <h5 id="random-quote"></h5>
-    </div>
+  <!-- this is the button for the inspirational quote -->
+  <div class="col-sm-5 col">
+    <button id="quote-button" type="button" class="btn btn-info">Get Inspired...</button>
+    <h5 id="random-quote"></h5>
+  </div>
 
-    <!-- this is where the Journal text box will be -->
+  <!-- this is where the Journal text box will be -->
   </div>
   <div class="row row-2">
     <div class="col-sm-6 col">
       <textarea name="" id="" cols="" rows=""></textarea>
     </div>
 
+    <!-- this is where the image button will be -->
     <div class="col-sm-6 col">
-      <button id="get-image" type="button" class="btn btn-success">Generate Random Chill Image</button>
+      <input id="user-input" type="text" placeholder="Choose your image">
+      <button id="get-image" type="button" class="btn btn-success">Get Image</button>
       <div id="image"></div>
     </div>
+  </div>
+
+
 
   </div>
 

@@ -2,18 +2,23 @@ $(document).ready(function(){
 
 //IMAGE CONTAINER
 
-var apiKey = '2XOC8Ho3yFg21bZa4yEJsklnaWbW1mg0';
-var queryUrl = 'http://wallhaven.cc/api/v1/search?apikey=' + apiKey;
+$('#get-image').click(function(){
+    var userInput = $('#user-input').val();
+    var apiKey = '18310078-72a2f7e072a362d9cdc81c6c9';
+    var queryUrl = 'https://pixabay.com/api/?key=' + apiKey + '&q=' + userInput + '&image_type=photo';
 
-$('button').click(function(){
+
+
     $.ajax({
         url: queryUrl,
         type: 'GET',
-        success: function(data){
-          var imgEl =  $('<img>').attr('src', queryUrl);
-          $('#image').append(imgEl);
-        }
+    }).then(function(data){
+        $('#image').empty();
+        var imgLink = data.hits[4].largeImageURL;
+        var imgTag =  $('<img>').attr('src', imgLink).addClass('img-fluid');
+        var imgDisplay = $('#image').append(imgTag);
     })
+
 })
 
 
