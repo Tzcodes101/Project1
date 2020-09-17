@@ -36,7 +36,7 @@ $(document).ready(function () {
   //add on-click event to get quote button id quote-button
 
   $("#quote-button").click(function () {
-    console.log("help");
+
     $.ajax({
       url: "https://cors-anywhere.herokuapp.com/http://api.forismatic.com/api/1.0/?",
       data: {
@@ -61,6 +61,4 @@ $(document).ready(function () {
 
     });
   });
-
-
-})
+});
