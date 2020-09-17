@@ -60,5 +60,9 @@ textarea{
         background-size: 100% 50px; */
 }
 
+.quote, .random{
+    border: 5px solid black;
+}
+
 
 
