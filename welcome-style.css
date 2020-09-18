@@ -1,0 +1,12 @@
+  
+body{
+    background-image: url('./image/artem-sapegin-8c6eS43iq1o-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card{
+    margin: 50px 30px 50px 30px;
+    padding: 10px;
+}
