@@ -36,16 +36,18 @@ $(document).ready(function () {
             },
             success: function (response) {
                 $("#random-quote").empty();
+                $("#author").empty();
                 //grab quote text and author
                 var quoteText = response.quoteText;
-                var quoteAuthor = response.quoteAuthor;
+                var quoteAuthor = "-- " + response.quoteAuthor;
 
                 //create elements for vars
-                var displayQuoteEl = $("<h5>").text(quoteText);
-                var displayAuthorEl = $("<p>").text(quoteAuthor);
+                // var displayQuoteEl = $("<h5>").text(quoteText);
+                // var displayAuthorEl = $("<p>").text(quoteAuthor);
 
                 //append to container
-                $("#random-quote").append(displayQuoteEl).append(displayAuthorEl);
+                $("#random-quote").append(quoteText);
+                $("#author").append(quoteAuthor);
 
             }
 
