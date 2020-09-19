@@ -23,13 +23,11 @@ $(document).ready(function () {
 
 
     // Local Storage
-
     var userText = document.querySelector('#journal-text');
 
-    $('#save-entry').on('click', function () {
-        localStorage.setItem('journal-text', userText.value)
-    })
-
+    setInterval(function(){ 
+        localStorage.setItem('journal-text', userText.value); 
+    }, 1000);
 
     //RANDOM INSPIRATIONAL QUOTES CONTAINER
     //add on-click event to get quote button id quote-button
