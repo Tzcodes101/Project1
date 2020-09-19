@@ -1,6 +1,8 @@
 body {
     /* background-image: url("../Project1/leaves.png"); */
     background-color: mintcream;
+    display:flex;
+    flex-flow: column;
    }
 
 .container{
@@ -24,8 +26,12 @@ body {
 .row-2{
     height: 500px;
     padding-top: 10px;
-    margin: 10px
-;
+    margin: 10px;
+}
+
+.wrap{
+    display: flex;
+    flex-flow: row;
 }
 
 .col{
@@ -48,16 +54,10 @@ textarea{
         font-size: 22px;
         line-height: 30px;
         margin: 2% auto;
-        padding: 1px 20px 0 70px;
+        /* padding: 1px 20px 0 70px; */
         resize: none;
         height: 92%;
         width: 100%;
-/* 
-        background-image: -moz-linear-gradient(top , transparent, transparent 49px,#E7EFF8 0px), -moz-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -moz-radial-gradient(3.9% 46% , circle closest-corner, #CCCCCC, #CCCCCC 43.5%, transparent 0%); 
-        background-image: -webkit-linear-gradient(top , transparent, transparent 49px,#E7EFF8 0), -webkit-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -webkit-radial-gradient(3.9% 46%, circle closest-corner, #cccccc, #cccccc 43.5%, transparent 0%);
-
-        -webkit-background-size:  100% 50px;
-        background-size: 100% 50px; */
 }
 
 
