@@ -3,41 +3,47 @@ body {
     background-color: mintcream;
    }
 
-.container{
+.container {
     position: relative;
 }
-#title{
+
+#random-quote {
     color: black;
     font-family: 'Arial';
-    font-size: 20px;
+    font-size: 25px;
     font-weight: lighter;
 }
 
-.row-1{
-    
-    height: 100px;
-    padding-top: 10px;
-    text-align: center;
-    margin: 10px;
+#author {
+    font-size: 16px;
+   font-family: "Arial";
 }
+
+.quote {
+    margin-top: 7%;
+}
+ 
+.quoteBtn {
+     text-align: center;
+     margin-top: 3%;
+     margin-bottom: 9%;
+}
+
+.img-btn {
+    padding-left: 1.5%;
+}
+
 
 .row-2{
     height: 500px;
-    padding-top: 10px;
-    margin: 10px
-;
+    margin-top: 1%;
+    margin-bottom: 10%;
 }
 
-.col{
-    border-radius: 15px;
-    border: 3px solid grey;
-    margin: 2% auto;
-}
 
 .img-fluid{
-    height: 450px;
+    height: 500px;
     width: 650px;
-    margin: 5px 5px 5px 5px;
 }
 
 textarea{
@@ -45,19 +51,23 @@ textarea{
         box-shadow: 1px 1px 0 #DDDDDD;
         display: block;
         font-family: 'Arial';
-        font-size: 22px;
-        line-height: 30px;
-        margin: 2% auto;
-        padding: 1px 20px 0 70px;
+        font-size: 16px;
+        line-height: 20px;
         resize: none;
-        height: 92%;
+        height: 100%;
         width: 100%;
-/* 
-        background-image: -moz-linear-gradient(top , transparent, transparent 49px,#E7EFF8 0px), -moz-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -moz-radial-gradient(3.9% 46% , circle closest-corner, #CCCCCC, #CCCCCC 43.5%, transparent 0%); 
-        background-image: -webkit-linear-gradient(top , transparent, transparent 49px,#E7EFF8 0), -webkit-radial-gradient(4% 50%, circle closest-corner, #f5f5f5, #f5f5f5 39%, transparent 0%), -webkit-radial-gradient(3.9% 46%, circle closest-corner, #cccccc, #cccccc 43.5%, transparent 0%);
+}
 
-        -webkit-background-size:  100% 50px;
-        background-size: 100% 50px; */
+#user-input:hover {
+    box-shadow: 0 .1px .1px grey, 0 .1px .1px grey;
+}
+
+.image-div, .journal-div {
+    box-shadow: 0 4px 8px 0 rgb(167, 233, 200), 0 6px 20px 0 rgb(167, 233, 200);
+}
+
+.journal-div:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(95, 94, 94, 0.19);
 }
 
 

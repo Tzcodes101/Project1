@@ -47,7 +47,7 @@
 
 <body>
 
-  <div class="jumbotron">
+  <!-- <div class="jumbotron">
     <h1 class="display-3">Welcome Friends,</h1>
     <p class="lead">This webpage is a simple way to record your thoughts, jot down your ideas, or make a journal entry.
       You will find a pre-set playlist and be able to click "Play" and listen to it as you work. If you need a bit of
@@ -56,40 +56,52 @@
     </p>
     <hr class="my-4">
     <p> Enjoy your time here, and thank you for taking care of yourself!</p>
+  </div> -->
 
-  </div>
-
-  <!-- this is just a title -->
-  <div class="col-sm-5 col">
-    <h1 id="title">"Always be yourself and have faith in yourself. Do not go out and look for a successful personality
-      and try to duplicate it." --Bruce Lee</h1>
-  </div>
-
-  <!-- this is the button for the inspirational quote -->
-  <div class="col-sm-5 col">
-    <button id="quote-button" type="button" class="btn btn-info">Get Inspired...</button>
-    <div id="quote"></div>
-  </div>
-
-  <!-- this is where the Journal text box will be -->
-  </div>
-  <div class="row row-2">
-    <div class="col-sm-6 col">
-      <button id="save-entry" type="button" class="btn btn-success">Save Entry</button>
-      <textarea name="" id="journal-text" cols="" rows=""></textarea>
+  <div class="container">
+    <!--row for quote-->
+    <div class="row justify-content-md-center quote">
+      <div class="col-6">
+        <!--placeholder text until quote-API merged-->
+        <p id="random-quote">"Always be yourself and have faith in yourself. Do not go out and look for a successful
+          personality
+          and try to duplicate it."<p>
+        <p id="author">-- Bruce Lee</p>
+      </div>
+    </div>
+    <!--row for quote btn-->
+    <div class="row">
+      <div class="col-12 quoteBtn">
+        <button id="quote-button" type="button" class="btn btn-info">Get Inspired...</button>
+      </div>
     </div>
 
-    <!-- this is where the image button will be -->
-    <div class="col-sm-6 col">
-      <input id="user-input" type="text" placeholder="Choose your image">
-      <button id="get-image" type="button" class="btn btn-success">Get Image</button>
-      <div id="image"></div>
+    <!--row for image selection button-->
+    <div class="row">
+      <div class="col-sm-6 col-xl-5 img-btn">
+        <input id="user-input" type="text" placeholder="Choose your image">
+        <button id="get-image" type="button" class="btn btn-success">Get Image</button>
+      </div>
     </div>
-  </div>
+
+    <div class="row justify-content-md-center row-2">
+      <!-- this is where the image button will be -->
+      <div class="col-sm-6 col-xl-6 image-div">
+        <div id="image">
+          <img class="img-fluid" src="https://miro.medium.com/max/10944/0*fSmEy0sLi-pOhttn"/>
+        </div>
+      </div>
+
+      <!--journal textbox-->
+      <div class="col-sm-6 col-xl-6 journal-div">
+        <textarea name="" id="" cols="" rows=""></textarea>
+      </div>
+    </div>
 
 
 
   </div>
+
 
   <script src="script.js"></script>
 </body>
