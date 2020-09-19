@@ -63,7 +63,18 @@ textarea{
 }
 
 .image-div, .journal-div {
-    box-shadow: 0 4px 8px 0 rgb(167, 233, 200), 0 6px 20px 0 rgb(167, 233, 200);
+    box-shadow: 0 4px 8px 0 rgb(167, 233, 200), 0 -4px 8px 0 rgb(167, 233, 200);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.image-div {
+    border-right: 1px solid grey;
+}
+
+.journal-div {
+    border-left: 1px solid grey;
 }
 
 .journal-div:hover {
