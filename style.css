@@ -21,6 +21,7 @@ body {
 
 .quote {
     margin-top: 7%;
+    line-height: 25px;
 }
  
 .quoteBtn {
@@ -55,9 +56,9 @@ textarea {
         resize: none;
         height: 100%;
         width: 100%;
-        background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px);
-        line-height: 4ch;
-        background-size: 100% 4ch;
+        /* background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px); */
+        /* line-height: 4ch;
+        background-size: 100% 4ch; */
 }
 
 #user-input:hover {
