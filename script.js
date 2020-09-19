@@ -24,8 +24,7 @@ $(document).ready(function () {
 
     // Local Storage
     var userText = document.querySelector('#journal-text');
-    // userText.value = ".                                                                                                                                                                                                                                                                                                                                                                                                                                         . ";
-    userText.rows = "100";
+                                 
 
     setInterval(function(){ 
         localStorage.setItem('journal-text', userText.value); 
