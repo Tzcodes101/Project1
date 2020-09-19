@@ -22,6 +22,15 @@ $(document).ready(function () {
     })
 
 
+    // Local Storage
+
+    var userText = document.querySelector('#journal-text');
+
+    $('#save-entry').on('click', function () {
+        localStorage.setItem('journal-text', userText.value)
+    })
+
+
     //RANDOM INSPIRATIONAL QUOTES CONTAINER
     //add on-click event to get quote button id quote-button
 
