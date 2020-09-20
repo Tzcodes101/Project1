@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
-    //IMAGE CONTAINER
 
+//IMAGE CONTAINER
     $('#get-image').click(function () {
         var userInput = $('#user-input').val();
         var apiKey = '18310078-72a2f7e072a362d9cdc81c6c9';
@@ -22,7 +22,7 @@ $(document).ready(function () {
     })
 
 
-    // Local Storage
+// LOCAL STORAGE
     var userText = document.querySelector('#journal-text');
                                  
 
@@ -30,9 +30,8 @@ $(document).ready(function () {
         localStorage.setItem('journal-text', userText.value); 
     }, 1000);
 
-    //RANDOM INSPIRATIONAL QUOTES CONTAINER
-    //add on-click event to get quote button id quote-button
-
+//RANDOM INSPIRATIONAL QUOTES CONTAINER
+//add on-click event to get quote button id quote-button
     $("#quote-button").click(function () {
 
         $.ajax({
