@@ -26,3 +26,47 @@
       rainButton.innerHTML = 'Rain';
     }
   })
+
+//LoFi
+var lofiButton = document.querySelector('#playLofi');
+var lofiSound = document.querySelector('#LofiSound');
+
+lofiButton.addEventListener('click', function () {
+  if (lofiSound.paused) {
+    lofiSound.play();
+    lofiButton.innerHTML = 'Pause';
+  } else {
+    lofiSound.pause();
+    lofiButton.innerHTML = 'LoFi';
+  }
+})
+
+//Meditation
+
+var meditationButton = document.querySelector('#playMeditation');
+var meditationSound = document.querySelector('#meditationSound');
+
+meditationButton.addEventListener('click', function () {
+  if (meditationSound.paused) {
+    meditationSound.play();
+    meditationButton.innerHTML = 'Pause';
+  } else {
+    meditationSound.pause();
+    meditationButton.innerHTML = 'Meditation';
+  }
+})
+
+//Piano
+
+var pianoButton = document.querySelector('#playPiano');
+var pianoSound = document.querySelector('#pianoSound');
+
+pianoButton.addEventListener('click', function () {
+  if (pianoSound.paused) {
+    pianoSound.play();
+    pianoButton.innerHTML = 'Pause';
+  } else {
+    pianoSound.pause();
+    pianoButton.innerHTML = 'Piano';
+  }
+})
