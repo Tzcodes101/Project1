@@ -1,12 +1,5 @@
 $(document).ready(function () {
 
-//MUSIC PLAYER
-var song = document.querySelector('.song')
-
-
-
-
-
 
 //IMAGE CONTAINER
     $('#get-image').click(function () {
