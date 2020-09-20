@@ -35,27 +35,29 @@ body {
 
 
 .row-2{
-    height: 500px;
+    height: 520px;
     margin-top: 1%;
     margin-bottom: 10%;
 }
 
 
 .img-fluid{
-    height: 500px;
+    height: 520px;
     width: 650px;
 }
 
-textarea{
+textarea {
     border: 1px solid #EEEEEE;
         box-shadow: 1px 1px 0 #DDDDDD;
         display: block;
         font-family: 'Arial';
         font-size: 16px;
-        line-height: 20px;
         resize: none;
         height: 100%;
         width: 100%;
+        background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px);
+        line-height: 4ch;
+        background-size: 100% 4ch;
 }
 
 #user-input:hover {
@@ -63,7 +65,18 @@ textarea{
 }
 
 .image-div, .journal-div {
-    box-shadow: 0 4px 8px 0 rgb(167, 233, 200), 0 6px 20px 0 rgb(167, 233, 200);
+    box-shadow: 0 4px 8px 0 rgb(167, 233, 200), 0 -4px 8px 0 rgb(167, 233, 200);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.image-div {
+    border-right: 1px solid grey;
+}
+
+.journal-div {
+    border-left: 1px solid grey;
 }
 
 .journal-div:hover {
