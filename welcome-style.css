@@ -1,12 +1,24 @@
-  
 body{
-    background-image: url('./welcome-image/artem-sapegin-8c6eS43iq1o-unsplash\ copy\ 2.jpg');
+    background-image: url('sunnyleaves.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
+.btn-primary{
+    height:30px !important;
+    width: 100px !important; 
+    font-size: larger;
+
+}
 .card{
-    margin: 50px 30px 50px 30px;
+  margin: 50px 30px 50px 30px; 
     padding: 10px;
+    font-size: larger;
+}
+.card-text{
+    font-size: larger;
+}
+.enjoy{
+    font-size: larger;
 }
