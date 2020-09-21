@@ -24,25 +24,25 @@ body {
 }
 
 .quote {
-    margin-top: 7%;
+    margin-top: 2%;
     line-height: 25px;
 }
  
 .quoteBtn {
      text-align: center;
-     margin-top: 3%;
-     margin-bottom: 9%;
+     margin-top: 1%;
+     margin-bottom: 5%;
 }
 
 .img-btn {
-    padding-left: 1.5%;
+    padding-left: 1.2%;
 }
 
 
 .row-2{
     height: 520px;
     margin-top: 1%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 
