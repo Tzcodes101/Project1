@@ -24,6 +24,7 @@ $(document).ready(function () {
 
 // LOCAL STORAGE
     var userText = document.querySelector('#journal-text');
+                                 
 
     setInterval(function(){ 
         localStorage.setItem('journal-text', userText.value); 
@@ -59,6 +60,8 @@ $(document).ready(function () {
 
         });
     });
+
+    //
 
 
 })
