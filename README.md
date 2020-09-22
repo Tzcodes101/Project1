@@ -1,20 +1,19 @@
 # Project1
-Web application that promote self care. Out of all relationships we build during life, the most imporatant is the one that we have with ourselves. We wont be able to love others if we don`t love ourselves first. 
-Loving yourselve meaning taking care of yourselve which we wont be able to do if we don`t get to know us first. Knowing yourselve is not as easy as people think. Getting to know yourselve means everyday communication with yourself. This is where the importance of this application stands. 
+This application is a browser-based journal-entry app to promotes self-care because. Out of all the relationships we build during life, the most imporatant is the one that we have with ourselves. To love others, we must love ourselves first, which begins with an internal understanding on what we need on an individual basis. Through this application, we strive to make this difficult task somewhat more manageable by providing a safe, calming space to reflect on and process your thoughts for a deeper understanding of your personal needs. 
 
 # Instructions
-Main purpose of this application is journaling. Before you start expressing anything that is in your heart, focus first on the image section. Type in a keyword of something that you would like to see, something that would put you at ease, make you feel safe and calm and a picture will be displayed. 
-After you set up the image, make sure to click on the get inspired button to generate a random inspirational quote. 
-And finally, open the dropdown menu and choose one of the available soothing sounds to enjoy while journaling. 
-Start writing. Take it slow. Try to define and understand how you feel and write it all out. Its a self therapy. It`s more powerful and beneficial than many think. 
+Before you begin the process of self-expression, first focus on setting your environment. With this journal-entry-app, a user can type in a keyword, something that would put the user at-ease and make them feel calm. The user can then click the button to have the image displayed. As another option, the user can click the "Get Quote" button to generate a random inspirational quote for further reflection or even a journaling topic. Finally, the user can determine to listen to a soothing playlist from the selection in the dropdown menu. 
+
+A message to the user:
+Start writing. Take it slow. Try to define and understand how you feel, why you feel that way, and write it all out. This is self therapy. It is more powerful and beneficial than you may think. 
 
 # Tech / Framework used 
   - JavaScript
   - jQuery 
-  - server API
+  - server APIs
   - third party API
   - Bootstrap 
-  - Material
+
   
   # Contributors 
   - Talia Zisman
