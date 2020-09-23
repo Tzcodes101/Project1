@@ -9,6 +9,10 @@ Screenshots of the application are provided in the "Images of App" folder.
 A message to the user:
 Start writing. Take it slow. Try to define and understand how you feel, why you feel that way, and write it all out. This is self therapy. It is more powerful and beneficial than you may think. 
 
+Link to deployed application: https://tzcodes101.github.io/Safe-Space/
+
+Link to repository: https://github.com/Tzcodes101/Safe-Space
+
 # Tech / Framework used 
   - JavaScript
   - jQuery 
