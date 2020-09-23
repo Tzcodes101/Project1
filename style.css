@@ -5,19 +5,21 @@ body{
     background-size: cover;
 }
 
-.btn-primary{
-    height:30px !important;
-    width: 100px !important; 
-    font-size: larger;
+.welcome{
+    height: 30px;
+    width: 100px;
 }
+
 .card{
-  margin: 50px 30px 50px 30px; 
+    margin: 50px 30px 50px 30px; 
     padding: 10px;
     font-size: larger;
 }
+
 .card-text{
     font-size: larger;
 }
+
 .enjoy{
     font-size: larger;
 }
