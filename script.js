@@ -42,15 +42,16 @@ $(document).ready(function () {
                 format: "json"
             },
             success: function (response) {
+                console.log(response);
+
                 $("#random-quote").empty();
                 $("#author").empty();
                 //grab quote text and author
                 var quoteText = response.quoteText;
-                var quoteAuthor = "-- " + response.quoteAuthor;
+                console.log(quoteText);
 
-                //create elements for vars
-                // var displayQuoteEl = $("<h5>").text(quoteText);
-                // var displayAuthorEl = $("<p>").text(quoteAuthor);
+                var quoteAuthor = "-- " + response.quoteAuthor;
+                console.log(quoteAuthor);
 
                 //append to container
                 $("#random-quote").append(quoteText);
